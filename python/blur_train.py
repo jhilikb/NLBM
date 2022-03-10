@@ -12,7 +12,7 @@ from PIL import Image,ImageOps
 import numpy as np
 import argparse
 from timeit import default_timer as timer
-from model.vgg_nlbm_cuhk import Vgg16c
+from vgg_nlbm_cuhk import Vgg16c
 import os
 from torch.utils.data import DataLoader
 import torch.optim as optim
