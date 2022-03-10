@@ -2,8 +2,9 @@
 #  Clone the repository and cd into it 
 1. git clone https://github.com/jhilikb/NLBM.git
 2. cd  NLBM
-# run the file docker/run.sh
+# run the file docker/launchenv.sh and build it
 3. sh docker/run.sh
+4. sh /home/NLBM/docker/build.sh
 # for testing images you can run the following (you can process 1 or more images at once)
 4. cd /build/bin
 5. ./test.py 'path_to_input_image_dir' 'path_to_save_output_image_dir' 'model_checkpoint_dir'
