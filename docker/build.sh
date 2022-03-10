@@ -1,3 +1,6 @@
+apt update 
+apt-get install -y python3-opencv
+pip install opencv-python
 cd /home/NLBM
 mkdir build
 cd build
