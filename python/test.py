@@ -42,7 +42,7 @@ t10=torch.Tensor([10])
 t10=t10.cuda()
 datadir=sys.argv[1]
 data_dir1=sys.argv[2]
-modeldir=sys.arv[3]
+modeldir=sys.argv[3]
 def tests(epoch):
     """
     Evaluate model on validation set
