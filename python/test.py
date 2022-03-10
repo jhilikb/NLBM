@@ -21,8 +21,8 @@ import torchvision.utils as vutils
 #from tensorboardX import SummaryWriter
 from tqdm import tqdm
 from math import log
-from model.vgg_nlbm_cuhk import Vgg16c
-# import contextual_loss as cl
+from vgg_nlbm_cuhk import Vgg16c
+
 
 
 
