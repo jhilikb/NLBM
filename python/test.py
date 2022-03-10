@@ -5,8 +5,7 @@ from torchvision import transforms
 import torch.nn as nn
 import torch.nn.functional as F
 import sys
-import matplotlib.pyplot as plt
-import scipy.io as sio
+
 import cv2
 from PIL import Image,ImageOps
 import numpy as np
@@ -19,8 +18,7 @@ from torch.backends import cudnn
 from torch.autograd import Variable
 import torchvision.utils as vutils
 #from tensorboardX import SummaryWriter
-from tqdm import tqdm
-from math import log
+
 from vgg_nlbm_cuhk import Vgg16c
 
 
