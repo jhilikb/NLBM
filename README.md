@@ -3,7 +3,7 @@
 1. git clone https://github.com/jhilikb/NLBM.git
 2. cd  NLBM
 # run the file docker/run.sh
-3. docker/run.sh
+3. sh docker/run.sh
 # for testing images you can run the following (you can process 1 or more images at once)
 4. cd /build/bin
 5. ./test.py 'path_to_input_image_dir' 'path_to_save_output_image_dir' 'model_checkpoint_dir'
